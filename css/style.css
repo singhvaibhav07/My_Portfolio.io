@@ -1,0 +1,58 @@
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+p {
+  font-size: 14px;
+}
+
+/* style for all the p tags that have a class small  */
+p.small {
+  font-size: 16px;
+}
+a{
+  color: #18BC9C!important;
+}
+a:hover,a:focus,a.active {
+  color: #18BC9C;
+  outline: none;
+  text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+  font-weight: 700;
+}
+
+header {
+  text-align: left;
+  background: #F3F5F7;
+  color: rgb(0, 56, 76);
+}
+
+footer {
+  
+    display:block;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    padding:20px 0;
+    background-color: #2C3E50;
+  text-align: center;
+    color: #ffffff;
+}
+.img-circle {
+    border-radius: 50%;
+    max-width: 25%;
+  }
+.gap{
+  padding: 100px;
+  text-align: center;
+}
+.gap1{
+  padding: 100px;
+}
+h3 {
+    /* border-bottom: 0px; */
+    border-bottom-style: double;
+}
